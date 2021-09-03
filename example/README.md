@@ -2,25 +2,26 @@
 >Arduino IDE中简单使用 WioLiteA。
 
 ## Arduino IDE 环境配置
+
 ### 1、seeed github 下载相关源程序包。
 ![image][image id]
 >包含：功能包(如上图) 与 STM32 Arduino Core，
 >https://github.com/Seeed-Studio
 
 
-###2、Arduino IDE下载 ST 开发板管理器： STM32 Cores。
+### 2、Arduino IDE下载 ST 开发板管理器： STM32 Cores。
 >https://github.com/stm32duino/BoardManagerFiles/raw/master/package_stmicroelectronics_index.json
 
 ### 3、STM32 Arduino Core 包替换下载好的开发板开发包。
 >参考路径：C:\Users\Bass\AppData\Local\Arduino15\packages\STM32\hardware\stm32
 >注意：需要重命名为与原来开发板包名称一致
 
-### 3、配置烧录辅助工具：uf2conv。
+### 4、配置烧录辅助工具：uf2conv。
 >将其放置到目录下（参考路径）：
 >C:\Users\Bass\AppData\Local\Arduino15\packages\STM32\tools\STM32Tools\1.4.0\tools\win
 
-### 4、加入示例：
-将其放置到目录下（参考路径）：
+### 5、加入示例：
+>将其放置到目录下（参考路径）：
 >C:\Users\Bass\Documents\Arduino\libraries
 >备注：示例 在 IDE 中的第三方库。
 
