@@ -1,5 +1,5 @@
 # Test_20210721
->Arduino IDE中简单使用 WioLiteA。
+>Arduino IDE中简单使用 WioLiteAI。
 
 ## Arduino IDE 环境配置
 
